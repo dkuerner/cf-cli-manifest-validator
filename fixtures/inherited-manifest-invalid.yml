@@ -1,0 +1,8 @@
+---
+inherit: missing-base-manifest.yml
+env:
+  will-be-overridden: my-value
+applications:
+ - name: my-app
+   services:
+    - foo-service
